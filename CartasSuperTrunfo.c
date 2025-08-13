@@ -26,7 +26,7 @@ int main() {
     //ENTRADAS - CARTA 1
     printf("\n\nCARTA 1\n\n");
     printf("Digite a letra de um Estado(A-H): ");
-    scanf("%c", &estado1);
+    scanf(" %c", &estado1);
 
     printf("Digite um número(1-4): ");
     scanf("%s", numero1);
@@ -49,7 +49,7 @@ int main() {
     //ENTRADAS - CARTA 2
     printf("\n\nCARTA 2\n\n");
     printf("Digite a letra de um Estado(A-H): ");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
 
     printf("Digite um número(1-4): ");
     scanf("%s", numero2);
@@ -75,7 +75,7 @@ int main() {
 
     //SAÍDA - CARTA 1
     printf("\nDADOS - CARTA 1\n\n");
-    printf("Estado: %c\n, estado1");
+    printf("Estado: %c\n", estado1);
     printf("Código da carta: %c0%s\n", estado1, numero1);
     printf("Cidade: %s\n", cidade1);
     printf("População: %d habitantes\n", populacao1);
@@ -85,7 +85,7 @@ int main() {
 
     //SAÍDA - CARTA 2
     printf("\nDADOS - CARTA 2\n\n");
-    printf("Estado: %c\n, estado2");
+    printf("Estado: %c \n", estado2);
     printf("Código da carta: %c0%s\n", estado2, numero2);
     printf("Cidade: %s\n", cidade2);
     printf("População: %d habitantes\n", populacao2);
@@ -93,6 +93,6 @@ int main() {
     printf("PIB(em bilhões): %.0f bilhões de reais\n", pib2);
     printf("Número de pontos turísticos: %d\n", npontosturisticos2);
 
-    
+
     return 0;
 }
